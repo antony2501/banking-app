@@ -5,9 +5,9 @@ metadata:
   name: banking-ingress
   namespace: banking
 spec:
-  ingressClassName: haproxy
+  ingressClassName: nginx
   rules:
-    - host: npd-banking.co
+    - host: e-wallet..mbfs.vn
       http:
         paths:
           - path: /
